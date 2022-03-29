@@ -3,5 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:Pinturas-Acme/repo-template.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "commit": "./node_modules/cz-customizable/standalone.js"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "^6.3.0"
+  },
+  "config": {
+    "cz-customizable": {
+      "config": "config/cz-config.js"
+    }
+  }
 }
