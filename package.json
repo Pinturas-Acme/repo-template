@@ -1,0 +1,7 @@
+{
+  "name": "repo-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Pinturas-Acme/repo-template.git",
+  "license": "MIT"
+}
